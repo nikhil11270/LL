@@ -8,3 +8,6 @@ git push
 ```
 
 ![add,push,commit](./f2.png)
+
+`git status`
+![status](./f3.png)
