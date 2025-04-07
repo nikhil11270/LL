@@ -21,8 +21,31 @@ git push
 # LAB-2 GIT COMMANDS
 *BRANCHING*
 
-Create a file and do 3 commits in it  
+
+Create a file and do 3 commits in it
 1st change
 ```bash
 git add .
 git commit -m "version1"
+```
+2nd change
+```bash
+git add .
+git commit -m "version1"
+```
+
+3rd change
+```bash
+git add .
+git commit -m "hello3"
+```
+
+
+
+View all commits by using git log
+
+```bash
+git log
+```
+
+![allcommit](./f5.png)
