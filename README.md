@@ -6,3 +6,5 @@ git add .
 git commit -m "figure 1"
 git push
 ```
+
+![add,push,commit](./f2.png)
