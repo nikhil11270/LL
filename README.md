@@ -49,3 +49,11 @@ git log
 ```
 
 ![allcommit](./f5.png)
+
+```bash
+git branch featur1
+git log
+```
+
+
+![allcommit](./f6.png)
