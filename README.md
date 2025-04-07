@@ -11,3 +11,7 @@ git push
 
 `git status`
 ![status](./f3.png)
+
+> Final step done
+
+![diff](./f4.png)
