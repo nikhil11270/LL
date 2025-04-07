@@ -31,7 +31,7 @@ git commit -m "version1"
 2nd change
 ```bash
 git add .
-git commit -m "version1"
+git commit -m "version2"
 ```
 
 3rd change
