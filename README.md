@@ -72,3 +72,12 @@ git commit -m "feature commit 2"
 
 ![allcommit](./f7.png)
 
+
+```bash
+git checkout master
+git log
+```
+
+
+![allcommit](./f8.png)
+
