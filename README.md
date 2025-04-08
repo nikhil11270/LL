@@ -81,6 +81,7 @@ git log
 
 ![allcommit](./f8.png)
 
+q
 #Merging
 ```bash
 git checkout feature1
