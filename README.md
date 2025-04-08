@@ -81,7 +81,7 @@ git log
 
 ![allcommit](./f8.png)
 
-q
+
 #Merging
 ```bash
 git checkout feature1
@@ -90,3 +90,13 @@ git log
 ```
 
 ![allcommit](./f9.png)
+
+Do the comit 3 in feature branch
+```bash
+git add .
+git commit -m "feature done"
+git log
+
+```
+
+![allcommit](./f10.png)
