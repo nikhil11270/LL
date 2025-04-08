@@ -74,7 +74,7 @@ git commit -m "feature commit 2"
 
 
 ```bash
-git checkout master
+git checkout main
 git log
 ```
 
