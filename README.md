@@ -100,3 +100,13 @@ git log
 ```
 
 ![allcommit](./f10.png)
+
+switching to main branch and perform merging
+```bash
+git checkout main
+git merge feature1 -m "Merging featutre 1"
+git log
+
+```
+
+![allcommit](./f11.png)
