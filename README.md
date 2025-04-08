@@ -100,3 +100,22 @@ git log
 ```
 
 ![allcommit](./f10.png)
+
+switching to master branch and perform merging
+```bash
+git checkout main
+git merge feature1 -m "Merging featutre 1"
+git log
+
+```
+
+![allcommit](./f11.png)
+
+*RESET*
+```bash
+git reset --hard a462d13e9a
+git log
+``` 
+
+*GIT RESET --HARD:Removed the merge commit 13dd279 and deleted all merged changes.*
+*GIT RESET --SOFT:Would have removed the merge commit but kept changes staged, allowing you to re-commit easily.*
