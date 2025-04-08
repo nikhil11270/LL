@@ -81,3 +81,11 @@ git log
 
 ![allcommit](./f8.png)
 
+#Merging
+```bash
+git checkout feature1
+git log
+
+```
+
+![allcommit](./f9.png)
