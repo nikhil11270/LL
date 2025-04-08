@@ -113,9 +113,6 @@ git log
 
 *RESET*
 ```bash
-git reset --hard a462d13e9a
+git reset --hard b94e984
 git log
 ``` 
-
-*GIT RESET --HARD:Removed the merge commit 13dd279 and deleted all merged changes.*
-*GIT RESET --SOFT:Would have removed the merge commit but kept changes staged, allowing you to re-commit easily.*
