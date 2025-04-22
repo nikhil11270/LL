@@ -227,4 +227,22 @@ svn log
 ![allcommit](./f19.png)
 
 
+# DOCKER
+
+```bash
+docker -v
+
+```
+
+```bash
+docker pull hello-world
+
+```
+
+```bash
+docker images
+
+```
+
+![allcommit](./f20.png)
 
