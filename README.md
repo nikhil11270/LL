@@ -128,3 +128,15 @@ git push
 
 ![allcommit](./f11.png)
 >>>>>>> 41b0b7c453cc3b0cbd948cfaaabdce4125577f69
+
+#Hosting Submodule
+Create a repository with the same name as github username
+*SAGAR-SINGH-X-CUBE.github.io*
+Go to your repository: SAGAR-SINGH-X-CUBE.github.io
+Click on "Settings" → "Pages"
+Under "Branch," select main.
+Click "Save."
+
+![allcommit](./f13.png)
+
+![allcommit](./f14.png)
