@@ -252,4 +252,12 @@ docker run hello-world
 
 ![allcommit](./f21.png)
 
+```bash
+docker run -it ubuntu
+
+```
+
+![allcommit](./f22.png)
+
+
 
