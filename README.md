@@ -108,11 +108,14 @@ git merge feature1 -m "Merging featutre 1"
 git log
 
 ```
-
-![allcommit](./f11.png)
-
-*RESET*
+open integrated terminal of MAIN repo
 ```bash
-git reset --hard b94e984
-git log
-``` 
+git submodule add https://github.com/SAGAR-SINGH-X-CUBE/JS.git css
+git submodule add https://github.com/SAGAR-SINGH-X-CUBE/CSS.git css
+git add .
+git commit -m "submodule added"
+git push
+
+```
+![allcommit](./f12.png)
+
