@@ -268,4 +268,64 @@ docker ps -a
 ![allcommit](./f23.png)
 
 
+# FastAPI Application with Docker Containerization
+
+Purpose:
+
+Created a simple FastAPI app with two routes:
+
+/: Returns name and location.
+
+/{data}: Returns a custom "hi" message with the given data and location.
+
+Used uvicorn to run the FastAPI app on port 80 with auto-reloading enabled.
+
+
+```bash
+from fastapi import FastAPI
+import uvicorn
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"name": "Sagar", "Location": "Dehradun"}
+
+@app.get("/{data}")
+def read_data(data: str):
+    return {"hi": data, "Location": "Dehradun"}
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=80, reload=True)
+
+```
+
+
+```bash
+FROM ubuntu
+
+RUN apt update -y
+RUN apt install python3 python3-pip pipenv -y
+
+WORKDIR /app
+COPY . /app/
+RUN pipenv install -r requirements.txt
+
+EXPOSE 80  
+
+CMD pipenv run python3 main.py
+
+
+```
+Purpose:
+
+Created a Docker image to run the FastAPI app in a container.
+
+Installs dependencies and runs the app on port 80.
+
+
+![allcommit](./f24.png)
+
+
+
 
