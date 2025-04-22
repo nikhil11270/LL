@@ -324,7 +324,7 @@ Created a Docker image to run the FastAPI app in a container.
 Installs dependencies and runs the app on port 80.
 
 
-![allcommit](./f24.png)
+![allcommit](./f24.jpg)
 
 
 
