@@ -260,4 +260,12 @@ docker run -it ubuntu
 ![allcommit](./f22.png)
 
 
+```bash
+docker ps -a
+
+```
+
+![allcommit](./f23.png)
+
+
 
