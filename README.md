@@ -101,13 +101,18 @@ git log
 
 ![allcommit](./f10.png)
 
+<<<<<<< HEAD
 switching to master branch and perform merging
+=======
+switching to main branch and perform merging
+>>>>>>> 41b0b7c453cc3b0cbd948cfaaabdce4125577f69
 ```bash
 git checkout main
 git merge feature1 -m "Merging featutre 1"
 git log
 
 ```
+<<<<<<< HEAD
 open integrated terminal of MAIN repo
 ```bash
 git submodule add https://github.com/SAGAR-SINGH-X-CUBE/JS.git css
@@ -119,3 +124,7 @@ git push
 ```
 ![allcommit](./f12.png)
 
+=======
+
+![allcommit](./f11.png)
+>>>>>>> 41b0b7c453cc3b0cbd948cfaaabdce4125577f69
