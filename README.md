@@ -246,3 +246,10 @@ docker images
 
 ![allcommit](./f20.png)
 
+```bash
+docker run hello-world
+```
+
+![allcommit](./f21.png)
+
+
